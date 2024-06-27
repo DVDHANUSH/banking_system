@@ -1,14 +1,13 @@
-package com.example.Banking_System;
+package com.banking.api_gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BankingSystemApplication {
+public class ApiGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BankingSystemApplication.class, args);
-		System.err.println("dhanush");
+		SpringApplication.run(ApiGatewayApplication.class, args);
 	}
 
 }
